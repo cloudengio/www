@@ -18,7 +18,7 @@ title = "cloudeng"
 # Navigation section
 [params.nav]
   mission = "Mission"
-  services = "Services"
+  services = "Expertise"
   team = "People"
   contact = "Get In Touch"
   #  mission = "Our Mission"
@@ -66,42 +66,42 @@ title = "cloudeng"
 [params.services]
   enable = true
   video = false
-  title = "Our Services"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  title = "Areas of Expertise and Experience"
+  description = ""
 
   [[params.services.item]]
-    icon = "icon-present"
-    title = "Web Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    icon = "icon-compass"
+    title = "Executive and Startup Leadership"
+    description = "15+ years of VP and director level experience at Google, GRAIL, Akamai and FORE Systems. Founder, pre and post-IPO strategic planning and fund raising."
 
   [[params.services.item]]
     icon = "icon-eye"
-    title = "Retina Ready"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    title = "Internet Search"
+    description = "Detailed knowledge of all aspects of internet search. Led the infrastructure teams for Google search from 2005 to 2012."
+
+  [[params.services.item]]
+    icon = "icon-barcode"
+    title = "Next Generation Sequencing and Associated Computation"
+    description = "Experience of NGS and in particular cell-free DNA/RNA analysis and computational methods. Led [GRAIL's](https://grail.com) team that built the cloud processing tools and infrastructure some of which is available as opensource on [github](https://github.com/grailbio)."
 
   [[params.services.item]]
     icon = "icon-paper-plane"
-    title = "Light Speed"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    title = "Large Scale Ditributed Sytems and Infrastructure"
+    description = "20+ years of experience using and building large scale distributed sytems (ie. >1000s' of machines), including managing Google's infrastructure teams."
 
   [[params.services.item]]
-    icon = "icon-pencil"
-    title = "Copyrighting"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    icon = "icon-tree"
+    title = "Internet and Networking Technology"
+    description = "Understanding and experience of core internet and networking technologies. Led the teams at [Akamai](https://akamai.com) that built their first internet scale streaming and storage services in the early 2000's"
 
   [[params.services.item]]
     icon = "icon-rocket"
-    title = "Load Fast"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-  [[params.services.item]]
-    icon = "icon-support"
-    title = "Customer Support"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    title = "Consumer Web Properties"
+    description = "Managed and contributed to many consumer web properties include product, UI, analyatics and all aspects of implementation; notably: Google news, image search, finance (when it was a standalone property), shopping (when it was froogle) and video before Google acquired youtube."
 
 # Work section
 [params.work]
-  enable = true
+  enable = false
 
   [[params.work.item]]
     title = "Consectetur adipisicing"
@@ -153,7 +153,7 @@ title = "cloudeng"
     name = "Cosmos Nicolaou"
     position = "Principal"
     description = "I have been fortunate to work in leadership positions at several notable and innovative companies ranging from startups, pre-IPO and public companies in the areas of distributed computing, computer networking, internet search, web properties, cloud computing and most recently next-generation DNA-sequencing for cancer screening."
-    img = "images/person1.jpg"
+    img = "images/Cos Nicolaou.jpg"
     github = "https://github.com/cosnicolaou"
     linkedin = "https://linkedin.com/in/cos-nicolaou"
     personal = "https://cosmosnicolaou.com"
