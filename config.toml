@@ -75,27 +75,27 @@ title = "cloudeng"
     description = "15+ years of VP and director level experience at Google, GRAIL, Akamai and FORE Systems. Founder, pre and post-IPO strategic planning and fund raising."
 
   [[params.services.item]]
-    icon = "icon-eye"
+    icon = "icon-google"
     title = "Internet Search"
     description = "Detailed knowledge of all aspects of internet search. Led the infrastructure teams for Google search from 2005 to 2012."
 
   [[params.services.item]]
     icon = "icon-barcode"
     title = "Next Generation Sequencing and Associated Computation"
-    description = "Experience of NGS and in particular cell-free DNA/RNA analysis and computational methods. Led [GRAIL's](https://grail.com) team that built the cloud processing tools and infrastructure some of which is available as opensource on [github](https://github.com/grailbio)."
+    description = "Experience of NGS and in particular cell-free DNA/RNA analysis and computational methods. Led [GRAIL](https://grail.com)'s team that built the cloud processing tools and infrastructure some of which is available as opensource on [github](https://github.com/grailbio)."
 
   [[params.services.item]]
-    icon = "icon-paper-plane"
-    title = "Large Scale Ditributed Sytems and Infrastructure"
+    icon = "icon-cloud"
+    title = "Large Scale Ditributed Sytems and Cloud Computing"
     description = "20+ years of experience using and building large scale distributed sytems (ie. >1000s' of machines), including managing Google's infrastructure teams."
 
   [[params.services.item]]
-    icon = "icon-tree"
-    title = "Internet and Networking Technology"
-    description = "Understanding and experience of core internet and networking technologies. Led the teams at [Akamai](https://akamai.com) that built their first internet scale streaming and storage services in the early 2000's"
+    icon = "icon-link"
+    title = "WWW, Internet and Networking Systems and Protocols"
+    description = "Understanding and experience of core web internet and networking technologies. Practical experience will all aspects of the web and networking ranging from switching, routing and firewall technology, to TCP/IP, DNS, HTTP, HTML and most current web technologies and systems. Led the teams at Akamai that built the first internet scale streaming and storage services in the early 2000's. "
 
   [[params.services.item]]
-    icon = "icon-rocket"
+    icon = "icon-chrome"
     title = "Consumer Web Properties"
     description = "Managed and contributed to many consumer web properties include product, UI, analyatics and all aspects of implementation; notably: Google news, image search, finance (when it was a standalone property), shopping (when it was froogle) and video before Google acquired youtube."
 
