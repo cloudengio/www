@@ -66,7 +66,7 @@ title = "cloudeng"
 [params.services]
   enable = true
   video = false
-  title = "Areas of Expertise and Experience"
+  title = "Areas of Expertise"
   description = ""
 
   [[params.services.item]]
