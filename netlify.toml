@@ -1,3 +1,7 @@
+[build]
+publish= "public"
+command = "hugo --minify"
+
 [context.production.environment]
-    HUGO_VERSION = "0.46"
-    command = "HUGO_BASEURL=$DEPLOY_PRIME_URL hugo --i18n-warnings"
+HUGO_VERSION = "0.46"
+command = "HUGO_BASEURL=$DEPLOY_PRIME_URL hugo --i18n-warnings"
