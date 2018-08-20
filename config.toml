@@ -3,6 +3,7 @@ theme = "hugo-icon"
 baseURL = "https://cloudeng.io/"
 languageCode = "en-AU"
 title = "cloudeng"
+googleAnalytics = "UA-124186763-1"
 
 # Metadata
 [params]
