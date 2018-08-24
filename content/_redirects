@@ -1,3 +1,5 @@
-/lib    go-get=:val /golang/lib.meta	302
-/lib/*  go-get=:val /golang/lib.meta	302
+/lib    go-get=1 /golang/lib.meta	302
+/lib/*  go-get=1 /golang/lib.meta	302
+/remote    go-get=1 /golang/remote_edit.meta	302
+/remte_edit/*  go-get=1 /golang/remote_edit.meta	302
 
