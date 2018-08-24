@@ -1,0 +1,2 @@
+/lib	go-get=:val	golang/cloudeng.lib.html
+/remote_edit	go-get=:val	golang/cloudeng.remote_edit.html
