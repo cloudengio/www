@@ -1,7 +1,3 @@
-/lib	go-get=:val	/golang/cloudeng.lib.html
-/lib/*	go-get=:val	/golang/cloudeng.lib.html
+/lib    go-get=:val /golang/lib.meta	302
+/lib/*  go-get=:val /golang/lib.meta	302
 
-
-/lib/*	https://github.com/cloudengio/go.lib/tree/master:splat
-/remote_edit/*	go-get=1	/golang/cloudeng.remote_edit.html
-/remote_edit/*	https://github.com/cloudengio/remote_edit/tree/master:splat
