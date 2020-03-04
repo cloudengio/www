@@ -12,3 +12,10 @@ command = "HUGO_BASEURL=$DEPLOY_PRIME_URL hugo --i18n-warnings"
   status = 200
   force = true
   query = {go-get = ":go-get"}
+
+[[redirects]]
+  from = "/sync"
+  to = "https://github.com/cloudengio/sync"
+  status = 200
+  force = true
+  query = {go-get = ":go-get"}
