@@ -4,6 +4,16 @@
 
 redirects="content/_redirects"
 
+case "$0" in
+*go.pkg.sh)
+	repo=go.pkg;;
+*go.cmd.sh)
+	repo=go.cmd;;
+*)
+	echo "unsupported github repo"
+	exit 1
+esac
+
 for pkg in "$@"; do
 	path=$pkg
 	meta="$(basename $path).meta"
@@ -13,7 +23,7 @@ for pkg in "$@"; do
 	) >> "${redirects}"
 
 	cat > "content/golang/${meta}" <<!
-<html><head><meta name="go-import" content="cloudeng.io/$pkg git https://github.com/cloudengio/$pkg"/></head></html>
+<html><head><meta name="go-import" content="cloudeng.io/$pkg git https://github.com/cloudengio/${repo}/$pkg"/></head></html>
 !
 	git add "content/golang/${meta}"
 done
