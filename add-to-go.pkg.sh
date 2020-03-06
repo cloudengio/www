@@ -6,9 +6,9 @@ redirects="content/_redirects"
 
 case "$0" in
 *go.pkg.sh)
-	repo=cloudengio/go.pkg;;
+	repo=go.pkg;;
 *go.cmd.sh)
-	repo=cloudengio/go.cmd;;
+	repo=go.cmd;;
 *)
 	echo "unsupported github repo"
 	exit 1
