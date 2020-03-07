@@ -23,10 +23,10 @@ for pkg in "$@"; do
 	) >> "${redirects}"
 
 	cat > "content/golang/${meta}" <<!
-<html><head><meta name="go-import" content="cloudeng.io/$pkg git https://github.com/cloudengio/${repo}"/></head></html>
+<html><head><meta name="go-import" content="cloudeng.io git https://github.com/cloudengio/${repo}"/></head></html>
 !
 	git add "content/golang/${meta}"
 done
 sort -su "${redirects}" > "${redirects}.new"
 mv "${redirects}.new" "${redirects}"
-
+git add "${redirects}"
