@@ -5,10 +5,10 @@
 redirects="content/_redirects"
 
 case "$0" in
-*go.pkg.sh)
-	repo=go.pkg;;
-*go.cmd.sh)
-	repo=go.cmd;;
+*go.pkgs.sh)
+	repo=go.pkgs;;
+*go.cmds.sh)
+	repo=go.cmds;;
 *)
 	echo "unsupported github repo"
 	exit 1
@@ -18,8 +18,8 @@ for pkg in "$@"; do
 	path=$pkg
 	meta="$(basename $path).meta"
 	(
-	echo "${path}	go-get=1	/golang/${meta}	302"
-	echo "${path}/*	go-get=1	/golang/${meta}	302"
+	echo "${path}	go-get=1	/golang/${meta}	!302"
+	echo "${path}/*	go-get=1	/golang/${meta}	!302"
 	) >> "${redirects}"
 
 	cat > "content/golang/${meta}" <<!
