@@ -7,5 +7,3 @@ sync	go-get=1	/golang/sync.meta	302
 sync/*	go-get=1	/golang/sync.meta	302
 text	go-get=1	/golang/text.meta	302
 text/*	go-get=1	/golang/text.meta	302
-textr	go-get=1	/golang/textr.meta	302
-textr/*	go-get=1	/golang/textr.meta	302
