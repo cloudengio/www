@@ -18,8 +18,8 @@ for pkg in "$@"; do
 	path=$pkg
 	meta="$(basename $path).meta"
 	(
-	echo "${path}	go-get=1	/golang/${meta}	!302"
-	echo "${path}/*	go-get=1	/golang/${meta}	!302"
+	echo "${path}	go-get=1	/golang/${meta}	302"
+	echo "${path}/*	go-get=1	/golang/${meta}	302"
 	) >> "${redirects}"
 
 	cat > "content/golang/${meta}" <<!
