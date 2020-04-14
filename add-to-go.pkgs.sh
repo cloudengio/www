@@ -7,8 +7,8 @@ redirects="content/_redirects"
 case "$0" in
 *go.pkgs.sh)
 	repo=go.pkgs;;
-*go.cmds.sh)
-	repo=go.cmds;;
+*go.gotools.sh)
+	repo=go.gotools;;
 *)
 	echo "unsupported github repo"
 	exit 1
