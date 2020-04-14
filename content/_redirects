@@ -1,4 +1,4 @@
-/	go-get=1 /golang/root.meta	302
+/	go-get=1 /golang/root.meta	302!
 cmdutil	go-get=1	/golang/cmdutil.meta	302
 cmdutil/*	go-get=1	/golang/cmdutil.meta	302
 errors	go-get=1	/golang/errors.meta	302
