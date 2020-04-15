@@ -23,7 +23,7 @@ for pkg in "$@"; do
 	) >> "${redirects}"
 
 	cat > "content/golang/${meta}" <<!
-<html><head><meta name="go-import" content="cloudeng.io git https://github.com/cloudengio/${repo}"/></head></html>
+<html><head><meta name="go-import" content="cloudeng.io/${path} git https://github.com/cloudengio/${repo}"/></head></html>
 !
 	git add "content/golang/${meta}"
 done
