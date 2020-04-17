@@ -6,9 +6,13 @@ redirects="content/_redirects"
 
 case "$0" in
 *go.pkgs.sh)
-	repo=go.pkgs;;
+	repo=go.pkgs
+	reporoot=
+	;;
 *go.gotools.sh)
-	repo=go.gotools;;
+	repo=go.gotools
+	reporoot=/go.gotools
+	;;
 *)
 	echo "unsupported github repo"
 	exit 1
@@ -23,7 +27,7 @@ for pkg in "$@"; do
 	) >> "${redirects}"
 
 	cat > "content/golang/${meta}" <<!
-<html><head><meta name="go-import" content="cloudeng.io/${path} git https://github.com/cloudengio/${repo}"/></head></html>
+<html><head><meta name="go-import" content="cloudeng.io${reporoot} git https://github.com/cloudengio/${repo}"/></head></html>
 !
 	git add "content/golang/${meta}"
 done
