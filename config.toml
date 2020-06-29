@@ -14,7 +14,7 @@ googleAnalytics = "UA-124186763-1"
 [params.hero]
   img = "images/hero_bg.jpg"
   title = "cloudeng"
-  description = "Technology, Leadership and Sofware Consulting"
+  description = "Technology, Leadership and Software Consulting"
 
 # Navigation section
 [params.nav]
