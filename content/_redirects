@@ -1,4 +1,5 @@
 /	go-get=1 /golang/root.meta	302!
+cmd/idu go-get=1	/golang/idu.meta	302
 algo	go-get=1	/golang/algo.meta	302
 algo/*	go-get=1	/golang/algo.meta	302
 cmdutil	go-get=1	/golang/cmdutil.meta	302
