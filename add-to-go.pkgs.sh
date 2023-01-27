@@ -5,6 +5,10 @@
 redirects="content/_redirects"
 
 case "$0" in
+*glean.sh)
+	repo=glean
+	reporoot=/glean
+	;;
 *go.pkgs.sh)
 	repo=go.pkgs
 	reporoot=
