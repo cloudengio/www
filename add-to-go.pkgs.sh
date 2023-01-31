@@ -5,6 +5,10 @@
 redirects="content/_redirects"
 
 case "$0" in
+*webapi.sh)
+	repo=webapi
+	reporoot=/webapi
+	;;
 *glean.sh)
 	repo=glean
 	reporoot=/glean

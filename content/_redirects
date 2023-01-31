@@ -29,5 +29,7 @@ sys	go-get=1	/golang/sys.meta	302
 sys/*	go-get=1	/golang/sys.meta	302
 text	go-get=1	/golang/text.meta	302
 text/*	go-get=1	/golang/text.meta	302
+webapi	go-get=1	/golang/webapi.meta	302
+webapi/*	go-get=1	/golang/webapi.meta	302
 webapp	go-get=1	/golang/webapp.meta	302
 webapp/*	go-get=1	/golang/webapp.meta	302
