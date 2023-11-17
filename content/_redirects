@@ -7,6 +7,7 @@ citools	go-get=1	/golang/citools.meta	302
 citools/*	go-get=1	/golang/citools.meta	302
 cmd/idu go-get=1	/golang/idu.meta	302
 cmd/tqr go-get=1	/golang/tqr.meta	302
+cmd/ufind go-get=1	/golang/ufind.meta	302
 cmdutil	go-get=1	/golang/cmdutil.meta	302
 cmdutil/*	go-get=1	/golang/cmdutil.meta	302
 debug	go-get=1	/golang/debug.meta	302
