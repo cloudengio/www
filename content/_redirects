@@ -44,3 +44,5 @@ webapi	go-get=1	/golang/webapi.meta	302
 webapi/*	go-get=1	/golang/webapi.meta	302
 webapp	go-get=1	/golang/webapp.meta	302
 webapp/*	go-get=1	/golang/webapp.meta	302
+webapps	go-get=1	/golang/webapps.meta	302
+webapps/*	go-get=1	/golang/webapps.meta	302
